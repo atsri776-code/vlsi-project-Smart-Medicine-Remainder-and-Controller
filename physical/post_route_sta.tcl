@@ -6,7 +6,7 @@ puts "Post-route STA placeholder"
 # Post-Route / Global-Route STA – Smart Medicine Reminder and Missed Alert Controller
 #==============================================================================
 
-source "$::env(HOME)/Desktop/OpenROAD/test/helpers.tcl"
+source "$::env(HOME)/Desktop/Downloads/OpenROAD/test/helpers.tcl"
 source "$::env(HOME)/Desktop/Downloads/OpenROAD/test/flow_helpers.tcl"
 source "$::env(HOME)/Desktop/Downloads/OpenROAD/test/sky130hd/sky130hd.vars"
 
