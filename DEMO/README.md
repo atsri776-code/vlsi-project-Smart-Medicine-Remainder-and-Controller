@@ -4,6 +4,4 @@ This folder can hold:
 - Demo videos / screenshots
 - Simulation waveform captures
 - Layout screenshots from OpenROAD / Magic
-- Presentation slides
-
-Place your demo material here before final submission.
+- Presentation slide
