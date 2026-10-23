@@ -36,5 +36,5 @@ detailed_placement
 report_worst_slack -min -digits 3
 report_worst_slack -max -digits 3
 
-write_db  "$::env(HOME)/Desktop/Smart-Medicine-Reminder-Controller/physical/placement_run/smart_medicine_reminder_detailed_place.odb"
-write_def "$::env(HOME)/Desktop/Smart-Medicine-Reminder-Controller/physical/placement_run/smart_medicine_reminder_detailed_place.def"
+write_db  "$::env(HOME)/Desktop/Downloads/Smart-Medicine-Reminder-Controller/physical/placement_run/smart_medicine_reminder_detailed_place.odb"
+write_def "$::env(HOME)/Desktop/Downloads/Smart-Medicine-Reminder-Controller/physical/placement_run/smart_medicine_reminder_detailed_place.def"
