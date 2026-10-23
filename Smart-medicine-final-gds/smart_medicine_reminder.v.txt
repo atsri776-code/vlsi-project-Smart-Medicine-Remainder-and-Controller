@@ -1,0 +1,2 @@
+# Copy of final RTL used for GDS tapeout
+# (place the signed-off RTL here)

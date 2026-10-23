@@ -1,0 +1,10 @@
+*.vcd
+*.vvp
+*.log
+*.rpt
+*.odb
+*.def
+*.gds
+*.spef
+__pycache__/
+*.pyc

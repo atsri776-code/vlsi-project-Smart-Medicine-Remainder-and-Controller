@@ -1,0 +1,2 @@
+# Timing constraints used for final implementation
+# (copy of synthesis/sta/smart_medicine_reminder.sdc)

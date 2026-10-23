@@ -1,0 +1,5 @@
+=== Synthesis Report (placeholder) ===
+Design : smart_medicine_reminder
+Technology : Sky130HD
+Number of cells : (run real synthesis)
+Chip area : (run real synthesis)
