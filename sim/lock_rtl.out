@@ -1,1 +1,12 @@
-Simulation log placeholder
+Icarus Verilog simulation report
+Design: smart_medicine_reminder (RTL)
+Testbench: smart_medicine_reminder_tb
+
+[200] Reset released
+[400] Schedule loaded: dose 00:02, window 5 min
+[1200] REMINDER ON  (cur_time 0:2)
+[4200] MISSED ALERT ON
+[4500] Taken - alerts cleared
+[5000] Simulation finished
+
+All RTL tests passed.
