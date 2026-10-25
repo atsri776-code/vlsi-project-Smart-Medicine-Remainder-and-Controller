@@ -1,1 +1,7 @@
-Simulation log placeholder
+# After you have mapped netlist + cell models
+iverilog -g2012 -o sim/gate_level.out \
+  /path/to/sky130_fd_sc_hd.v \
+  synthesis/smart_medicine_reminder_mapped.v \
+  tb/smart_medicine_reminder_tb.sv
+
+vvp sim/gate_level.out
