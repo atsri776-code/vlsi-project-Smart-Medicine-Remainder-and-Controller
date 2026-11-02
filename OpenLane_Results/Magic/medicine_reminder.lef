@@ -1,0 +1,191 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO medicine_reminder
+  CLASS BLOCK ;
+  FOREIGN medicine_reminder ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 84.845 BY 95.565 ;
+  PIN ack
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 80.845 68.040 84.845 68.640 ;
+    END
+  END ack
+  PIN buzzer
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 4.690 91.565 4.970 95.565 ;
+    END
+  END buzzer
+  PIN clk
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 64.490 0.000 64.770 4.000 ;
+    END
+  END clk
+  PIN done
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 80.845 20.440 84.845 21.040 ;
+    END
+  END done
+  PIN led
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 47.640 4.000 48.240 ;
+    END
+  END led
+  PIN missed_alert
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 66.790 91.565 67.070 95.565 ;
+    END
+  END missed_alert
+  PIN reminder_alert
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 32.290 0.000 32.570 4.000 ;
+    END
+  END reminder_alert
+  PIN reminder_due
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 2.390 0.000 2.670 4.000 ;
+    END
+  END reminder_due
+  PIN rst
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 34.590 91.565 34.870 95.565 ;
+    END
+  END rst
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER met4 ;
+        RECT 66.055 10.640 67.655 84.560 ;
+    END
+  END VPWR
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER met4 ;
+        RECT 41.520 10.640 43.120 84.560 ;
+    END
+  END VPWR
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER met4 ;
+        RECT 16.985 10.640 18.585 84.560 ;
+    END
+  END VPWR
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER met5 ;
+        RECT 5.520 71.040 79.120 72.640 ;
+    END
+  END VPWR
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER met5 ;
+        RECT 5.520 46.560 79.120 48.160 ;
+    END
+  END VPWR
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER met5 ;
+        RECT 5.520 22.080 79.120 23.680 ;
+    END
+  END VPWR
+  PIN VGND
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 53.785 10.640 55.385 84.560 ;
+    END
+  END VGND
+  PIN VGND
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 29.255 10.640 30.855 84.560 ;
+    END
+  END VGND
+  PIN VGND
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met5 ;
+        RECT 5.520 58.800 79.120 60.400 ;
+    END
+  END VGND
+  PIN VGND
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met5 ;
+        RECT 5.520 34.320 79.120 35.920 ;
+    END
+  END VGND
+  OBS
+      LAYER li1 ;
+        RECT 5.520 10.795 79.120 84.405 ;
+      LAYER met1 ;
+        RECT 2.370 10.640 79.120 84.560 ;
+      LAYER met2 ;
+        RECT 2.400 91.285 4.410 91.565 ;
+        RECT 5.250 91.285 34.310 91.565 ;
+        RECT 35.150 91.285 66.510 91.565 ;
+        RECT 67.350 91.285 75.810 91.565 ;
+        RECT 2.400 4.280 75.810 91.285 ;
+        RECT 2.950 4.000 32.010 4.280 ;
+        RECT 32.850 4.000 64.210 4.280 ;
+        RECT 65.050 4.000 75.810 4.280 ;
+      LAYER met3 ;
+        RECT 4.000 69.040 80.845 84.485 ;
+        RECT 4.000 67.640 80.445 69.040 ;
+        RECT 4.000 48.640 80.845 67.640 ;
+        RECT 4.400 47.240 80.845 48.640 ;
+        RECT 4.000 21.440 80.845 47.240 ;
+        RECT 4.000 20.040 80.445 21.440 ;
+        RECT 4.000 10.715 80.845 20.040 ;
+      LAYER met4 ;
+        RECT 31.255 10.640 41.120 84.560 ;
+        RECT 43.520 10.640 53.385 84.560 ;
+        RECT 55.785 10.640 65.655 84.560 ;
+  END
+END medicine_reminder
+END LIBRARY
+
